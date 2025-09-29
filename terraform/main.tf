@@ -4,7 +4,7 @@ provider "azurerm" {
   features {}
 }
 
-resource "azurerm_resource_group" "rg" {
+ "azurerm_resource_group" "rg" {
   name     = "${var.resource-group-name}-${var.environment}"
   location = "westeurope"
   
