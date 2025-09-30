@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: sample-container
-          image: nginx:1.25   # Replace with your app image
+          image: ginx:1.25   # Replace with your app image
           ports:
             - containerPort: 80
           resources:
