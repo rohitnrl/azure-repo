@@ -9,6 +9,6 @@ resources "azurerm_resource_group" "rg" {
   location = "westeurope"
   
   tags = {
-    environment = var.environment
+    environment = var.env
   }
 }
