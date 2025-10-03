@@ -1,4 +1,4 @@
-variable "environment" {
+variable "env" {
   default = "development"
   description = "The Environment name, i.e dev, staging, qa, preprod, test, prod..."
 }
