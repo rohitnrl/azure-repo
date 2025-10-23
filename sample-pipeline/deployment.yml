@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: sample-container
-          image: ginx:1.25   # Replace with your app image
+          image: nginx:1.25   # Replace with your app image
           ports:
             - containerPort: 80
           resources:
@@ -25,4 +25,4 @@ spec:
               memory: "128Mi"
             limits:
               cpu: "200m"
-              memory: "256Mi"
+              memory: "256Mi"\n
